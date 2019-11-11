@@ -17,6 +17,8 @@ if __name__ == '__main__':
     print(milton.idade)
     for filho in milton.filhos:
         print(filho.nome)
-
+    milton.sobrenome = 'Bastos'
+    print(milton.__dict__)
+    del milton.sobrenome
 
 
